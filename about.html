@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Tour A Bay</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+      <link href="logo.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="logo.png" rel="apple-touch-icon" />
+     <meta name="description" content="Experience the beauty of Arugam Bay with our premium vehicle hire services. From surfing spots to serene beaches, your adventure starts here. Powered by Pettah AI, developed by Seja Menath.">
+    <meta name="keywords" content="Arugam Bay, vehicle hire, surfing, beaches, Pettah AI, Seja Menath, Seja Menth, Sri Lanka, travel, tourism, Arugam Bay tours">
+    
+    <meta property="og:title" content="Welcome to Tour A Bay | Explore the Charm of Arugam Bay">
+    <meta property="og:description" content="Experience the beauty of Arugam Bay with our premium vehicle hire services. From surfing spots to serene beaches, your adventure starts here. Powered by Pettah AI, developed by Seja Menath.">
+    <meta property="og:image" content="logo.png"> <!-- Replace with the actual URL of your image -->
+    <meta property="og:url" content="https://www.sejamenth.com">
+    <meta property="og:type" content="website">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Welcome to Tour A Bay | Explore the Charm of Arugam Bay">
+    <meta name="twitter:description" content="Experience the beauty of Arugam Bay with our premium vehicle hire services. From surfing spots to serene beaches, your adventure starts here. Powered by Pettah AI, developed by Seja Menath.">
+    <meta name="twitter:image" content="URL_to_your_image.jpg"> <!-- Replace with the actual URL of your image -->
+
+    <link rel="canonical" href="https://www.sejamenth.com">
+    <meta name="author" content="Seja Menath">
+  <style>
+    html {
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      font-family: sans-serif;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #fefaf3;
+      color: #4a4a4a;
+    }
+
+    header {
+      background-color: #fefaf3;
+      padding: 20px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    nav .logo {
+      font-weight: bold;
+      font-size: 24px;
+      color: #333;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #4a4a4a;
+      font-size: 18px;
+      padding: 8px 16px;
+    }
+
+    nav ul li a.active,
+    nav ul li a:hover {
+      color: #e25822;
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .about h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .about p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      color: #4a4a4a;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      background-color: #fefaf3;
+      border-top: 1px solid #e0e0e0;
+    }
+
+    .typing-animation {
+      font-size: 48px;
+      font-weight: bold;
+      color: #333;
+      border-right: 4px solid #333;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 0;
+      animation: typing 2s steps(12) forwards, blink 0.75s step-end infinite;
+    }
+
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 7em; /* Adjusted width for the text "ABOUT US" */
+      }
+    }
+
+    @keyframes blink {
+      from,
+      to {
+        border-color: transparent;
+      }
+      50% {
+        border-color: #333;
+      }
+    }
+
+    #loader {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #fefaf3;
+    }
+
+    #content.hidden {
+      display: none;
+    }
+
+    /* Mobile styles */
+    @media (max-width: 768px) {
+      nav ul {
+        display: none; /* Hide the desktop navbar */
+      }
+
+      .mobile-nav {
+        display: block; /* Show the mobile navbar */
+        text-align: right;
+      }
+
+      .mobile-nav button {
+        background: none;
+        border: none;
+        font-size: 24px;
+        color: #4a4a4a;
+        cursor: pointer;
+      }
+
+      .mobile-nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        background-color: #fefaf3;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        width: 200px;
+        display: none;
+      }
+
+      .mobile-nav ul li {
+        text-align: left;
+      }
+
+      .mobile-nav ul li a {
+        display: block;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: #4a4a4a;
+        font-size: 16px;
+      }
+
+      .mobile-nav ul li a.active,
+      .mobile-nav ul li a:hover {
+        color: #e25822;
+      }
+
+      .mobile-nav ul.show {
+        display: block;
+      }
+
+      .about h2 {
+        font-size: 28px;
+      }
+
+      .about p {
+        font-size: 16px;
+      }
+
+      .typing-animation {
+        display: none;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .mobile-nav ul {
+        width: 150px;
+      }
+    }
+  </style>
+</head>
+<body>
+<div id="loader">
+  <h1 class="typing-animation">ABOUT US</h1>
+</div>
+<div class="navbar-container">
+      <div
+        data-w-id="fb32362f-f072-516d-d1fe-c4c658a8899a"
+        data-animation="default"
+        data-collapse="medium"
+        data-duration="400"
+        data-easing="ease"
+        data-easing2="ease"
+        role="banner"
+        class="navbar w-nav">
+        <a
+          href="/"
+          aria-current="page"
+          class="navbar-logo w-inline-block w--current"
+          ><img src="logo.png" loading="lazy" alt="" class="logo" />
+          <p class="text-xl logo-headline">TOUR A BAY</p></a
+        >
+        <nav role="navigation" class="navigation-menu w-nav-menu">
+          <a href="Vehicles.html" class="navbar-link w-nav-link">Vehicles</a
+          ><a href="index.html" class="navbar-link w-nav-link">Home</a>
+          <a href="https://wa.me/94772374091" class="button-primary-small w-inline-block">
+            <div class="text-s bold">Contact</div>
+          </a>
+        </nav>
+        <div class="menu-button w-nav-button">
+          <div class="hamburger-menu-icon">
+            <div class="hamburger-menu-line _1"></div>
+            <div class="hamburger-menu-line _2"></div>
+            <div class="hamburger-menu-line _3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <main>
+    <section class="about">
+      <h2>Welcome to Tour A Bay</h2>
+      <p>
+        At Tour A Bay, we offer premium vehicle hire services to explore the
+        stunning landscapes of Arugam Bay. Whether you are here for the
+        surfing spots or the serene beaches, our top-quality vehicles ensure
+        a comfortable and memorable journey.
+      </p>
+      <p>
+        Our mission is to provide excellent service and a seamless rental
+        experience. We pride ourselves on our customer satisfaction and our
+        commitment to making your adventure in Arugam Bay unforgettable.
+      </p>
+      <p>
+        Contact us today to learn more about our services and how we can
+        help you explore the charm of Arugam Bay!
+      </p>
+    </section>
+  </main>
+  <div class="footer">
+    <div class="footer-contact-info">
+      <a href="mailto:Jsamanju@yahoo.com" class="footer-link w-inline-block"
+        ><img
+          src="https://cdn.prod.website-files.com/6679264e26f6cb3ee1052480/667aa2a8cf8a241f9b3d910d_Icon%20Mail%20White.svg"
+          loading="lazy"
+          alt="" />
+        <p class="text-xl">Jsamanju@yahoo.com</p></a
+      >
+      <a href="tel:(542)487-658" class="footer-link w-inline-block"
+        ><img
+          src="https://cdn.prod.website-files.com/6679264e26f6cb3ee1052480/667aa2a8cc3aafecb4442969_Icon%20Phone%20White.svg"
+          loading="lazy"
+          alt="" />
+        <p class="text-xl">+94714406856</p>
+      </a>
+      <a
+        href="https://www.google.com/maps"
+        target="_blank"
+        class="footer-link w-inline-block">
+        <p class="text-xl">P/12 | Main street | ottuvil</p>
+      </a>
+    </div>
+    <div class="footer-container">
+      <div class="footer-logo-wrapper">
+        <a
+          href="/"
+          aria-current="page"
+          class="navbar-logo small w-inline-block w--current"
+          >
+        <div class="contact-social-icons">
+          
+          
+        </div>
+      </div>
+      <div class="footer-links-container">
+        
+        
+      <div class="text-s text-neutral-300">
+        © 2024 Tour A Bay. All rights reserved.
+        
+      </div>
+      <div class="text-s text-neutral-300">
+        Powered by | Pettah ai<a href="https://pettahai.com" target="_blank"></a>
+      </div>
+    </div>
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const loader = document.getElementById("loader");
+    const content = document.getElementById("content");
+
+    setTimeout(() => {
+      loader.style.display = "none";
+      content.classList.remove("hidden");
+    }, 2500); // Adjust the time if needed
+  });
+
+  function toggleMobileNav() {
+    const mobileNav = document.getElementById("mobileNav");
+    mobileNav.classList.toggle("show");
+  }
+</script>
+</body>
+</html><script
+      src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6679264e26f6cb3ee1052480"
+      type="text/javascript"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"></script>
+    <script src="script.js" type="text/javascript"></script>
